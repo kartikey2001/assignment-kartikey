@@ -128,8 +128,11 @@ async function executeStrategy(symbol) {
     const lastPrice = lastPrices[symbol] || currentPrice;
     const priceChange = (currentPrice - lastPrice) / lastPrice;
 
-    if (priceChange <= -0.02 && balance > currentPrice) {
-      // Buy condition: price dropped by 2% or more and we have enough balance
+    // Fetch bot settings
+    const settings = await BotSettings.findOne() || new BotSettings();
+
+    if (priceChange <= settings.buyThreshold / 100 && balance > currentPrice) {
+      // Buy condition: price dropped by buyThreshold% or more and we have enough balance
       const quantity = Math.floor(balance / currentPrice);
       positions[symbol] = (positions[symbol] || 0) + quantity;
       balance -= quantity * currentPrice;
@@ -138,8 +141,8 @@ async function executeStrategy(symbol) {
       // Record the trade
       await new Trade({ symbol, type: 'buy', quantity, price: currentPrice }).save();
       await updatePortfolio();
-    } else if (priceChange >= 0.03 && positions[symbol] > 0) {
-      // Sell condition: price increased by 3% or more and we have positions to sell
+    } else if (priceChange >= settings.sellThreshold / 100 && positions[symbol] > 0) {
+      // Sell condition: price increased by sellThreshold% or more and we have positions to sell
       const quantity = positions[symbol];
       balance += quantity * currentPrice;
       positions[symbol] = 0;
@@ -424,6 +427,78 @@ app.get('/config/symbols', async (req, res, next) => {
     const config = await Config.findOne();
     const symbols = config ? config.tradingSymbols : [];
     res.json(symbols);
+  } catch (error) {
+    next(error);
+  }
+});
+
+// Add this near your other schemas
+const BotSettingsSchema = new mongoose.Schema({
+  buyThreshold: { type: Number, default: -2 },
+  sellThreshold: { type: Number, default: 3 }
+});
+
+const BotSettings = mongoose.model('BotSettings', BotSettingsSchema);
+
+// Add this route to handle bot settings updates
+app.post('/bot/settings', express.json(), async (req, res, next) => {
+  try {
+    const { buyThreshold, sellThreshold } = req.body;
+    
+    // Validate input
+    if (typeof buyThreshold !== 'number' || typeof sellThreshold !== 'number') {
+      return res.status(400).json({ error: 'Invalid input', message: 'Thresholds must be numbers' });
+    }
+
+    // Find existing settings or create new ones
+    let settings = await BotSettings.findOne();
+    if (!settings) {
+      settings = new BotSettings();
+    }
+
+    // Update settings
+    settings.buyThreshold = buyThreshold;
+    settings.sellThreshold = sellThreshold;
+    await settings.save();
+
+    logger.info('Updated bot settings', { buyThreshold, sellThreshold });
+    res.json({ message: 'Bot settings updated successfully', settings });
+  } catch (error) {
+    logger.error('Error updating bot settings', { error: error.message });
+    next(error);
+  }
+});
+
+// Add this route to get current bot settings
+app.get('/bot/settings', async (req, res, next) => {
+  try {
+    const settings = await BotSettings.findOne() || new BotSettings();
+    res.json(settings);
+  } catch (error) {
+    next(error);
+  }
+});
+
+// Add this new route to delete a symbol
+app.delete('/config/symbols', express.json(), async (req, res, next) => {
+  try {
+    const { symbol } = req.body;
+    if (!symbol) {
+      return res.status(400).json({ error: 'Invalid input', message: 'Symbol is required' });
+    }
+    
+    let config = await Config.findOne();
+    if (!config) {
+      return res.status(404).json({ error: 'Not found', message: 'No configuration found' });
+    }
+    
+    // Remove the symbol from the array
+    config.tradingSymbols = config.tradingSymbols.filter(s => s !== symbol);
+    
+    await config.save();
+    
+    logger.info('Deleted trading symbol', { symbol });
+    res.json({ message: 'Trading symbol deleted successfully', symbols: config.tradingSymbols });
   } catch (error) {
     next(error);
   }

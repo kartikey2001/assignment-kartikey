@@ -62,6 +62,7 @@ li {
 .symbol {
     color: var(--symbol-color);
     font-weight: bold;
+    margin-right: 10px;
 }
 
 .buy {
@@ -150,4 +151,72 @@ button:hover {
 
 #addSymbolForm button:hover {
     opacity: 0.9;
+}
+
+/* Add these new styles to your existing CSS */
+
+#performanceChart {
+    margin-bottom: 20px;
+}
+
+#botSettings {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#botSettingsForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#botSettingsForm label {
+    font-weight: bold;
+}
+
+#botSettingsForm input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#botSettingsForm button {
+    align-self: flex-start;
+}
+
+.price {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#tradingSymbols ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#tradingSymbols li {
+    background-color: var(--card-bg);
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteSymbol {
+    background-color: var(--sell-color);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.deleteSymbol:hover {
+    opacity: 0.8;
 }

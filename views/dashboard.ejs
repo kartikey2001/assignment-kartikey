@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trading Bot Dashboard</title>
     <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="container">
@@ -16,6 +17,8 @@
         <section id="portfolio">
             <h2>Portfolio</h2>
             <p>Balance: $<span id="balance"><%= portfolio ? portfolio.balance.toFixed(2) : '10000.00' %></span></p>
+            <p>Total Value: $<span id="totalValue">0.00</span></p>
+            <p>Profit/Loss: $<span id="profitLoss">0.00</span></p>
             <h3>Positions:</h3>
             <ul id="positions">
             <% if (portfolio && portfolio.positions && Object.keys(portfolio.positions).length > 0) { %>
@@ -26,6 +29,11 @@
                 <li>No positions</li>
             <% } %>
             </ul>
+        </section>
+
+        <section id="performanceChart">
+            <h2>Portfolio Performance</h2>
+            <canvas id="portfolioChart"></canvas>
         </section>
 
         <section id="recentTrades">
@@ -42,31 +50,33 @@
             </ul>
         </section>
 
-        <section id="performance">
-            <h2>Performance</h2>
-            <ul>
-            <% performances.forEach(perf => { %>
-                <li>
-                    <span class="date"><%= perf.date.toLocaleDateString() %></span> - 
-                    Total Value: $<%= perf.totalValue.toFixed(2) %>, 
-                    Profit/Loss: <span class="<%= perf.profitLoss >= 0 ? 'profit' : 'loss' %>">
-                        $<%= Math.abs(perf.profitLoss).toFixed(2) %>
-                    </span>
-                </li>
-            <% }) %>
-            </ul>
-        </section>
-
         <section id="tradingSymbols">
             <h2>Trading Symbols</h2>
             <ul class="symbols">
             <% tradingSymbols.forEach(symbol => { %>
-                <li><span class="symbol"><%= symbol %></span></li>
+                <li>
+                    <span class="symbol"><%= symbol %></span>
+                    <span class="price" data-symbol="<%= symbol %>">Loading...</span>
+                    <button class="deleteSymbol" data-symbol="<%= symbol %>">Delete</button>
+                </li>
             <% }) %>
             </ul>
             <form id="addSymbolForm">
                 <input type="text" id="newSymbol" placeholder="Enter new symbol" required>
                 <button type="submit">Add Symbol</button>
+            </form>
+        </section>
+
+        <section id="botSettings">
+            <h2>Bot Settings</h2>
+            <form id="botSettingsForm">
+                <label for="buyThreshold">Buy Threshold (%):</label>
+                <input type="number" id="buyThreshold" name="buyThreshold" step="0.1" value="-2" required>
+                
+                <label for="sellThreshold">Sell Threshold (%):</label>
+                <input type="number" id="sellThreshold" name="sellThreshold" step="0.1" value="3" required>
+                
+                <button type="submit">Update Settings</button>
             </form>
         </section>
     </div>
