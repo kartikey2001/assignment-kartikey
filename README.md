@@ -55,9 +55,35 @@ I have created this assignment for the role of Backend Developer at Probo.
 ```
 trading-bot-dashboard/
 │
+├── config/
+│ ├── database.js
+│ └── finnhub.js
+│
+├── models/
+│ ├── BotSettings.js
+│ ├── Config.js
+│ ├── Performance.js
+│ ├── Portfolio.js
+│ └── Trade.js
+│
 ├── public/
 │ ├── styles.css
 │ └── script.js
+│
+├── routes/
+│ ├── botSettings.js
+│ ├── dashboard.js
+│ ├── performance.js
+│ ├── portfolio.js
+│ ├── price.js
+│ ├── symbols.js
+│ └── trade.js
+│
+├── services/
+│ └── tradingBot.js
+│
+├── utils/
+│ └── logger.js
 │
 ├── views/
 │ └── dashboard.ejs
@@ -67,8 +93,9 @@ trading-bot-dashboard/
 ├── .gitignore
 ├── index.js
 ├── package.json
-├── package-lock.json
-└── README.md
+├── README.md
+└── vercel.json
+
 ```
 
 ## Setup and Installation
@@ -113,20 +140,20 @@ The application uses the following environment variables:
 
 ## API Endpoints
 
-- GET `/dashboard`: Renders the main dashboard
+- GET `/`: Renders the main dashboard
 - GET `/price/:symbol`: Fetches the latest price for a given symbol
 - GET `/trade/:symbol`: Executes a trade for the given symbol
 - GET `/performance`: Retrieves historical performance data
 - GET `/portfolio`: Fetches current portfolio status
-- GET `/trades`: Retrieves recent trade history
-- POST `/config/symbols`: Adds new trading symbols
-- DELETE `/config/symbols`: Removes a trading symbol
 - GET `/bot/settings`: Retrieves current bot settings
 - POST `/bot/settings`: Updates bot settings
+- GET `/symbols`: Retrieves all trading symbols
+- POST `/symbols`: Adds a new trading symbol
+- DELETE `/symbols`: Removes a trading symbol
 
 ## Trading Strategy
 
-The bot implements a simple moving average crossover strategy:
+The bot implements a simple threshold-based strategy:
 - Buy when the price drops below the buy threshold (default -2%)
 - Sell when the price rises above the sell threshold (default +3%)
 
@@ -159,14 +186,14 @@ The dashboard implements real-time updates using:
 
 - Environment variables for sensitive data
 - Input validation and sanitization
-- CORS protection
-- Rate limiting on API endpoints (TODO)
+- CORS protection (to be implemented)
+- Rate limiting on API endpoints (to be implemented)
 
 ## Performance Optimization
 
 - Efficient database queries using Mongoose
-- Caching of frequently accessed data (TODO)
-- Optimized frontend assets (TODO)
+- Caching of frequently accessed data (to be implemented)
+- Optimized frontend assets (to be implemented)
 
 ## Future Enhancements
 
