@@ -1,0 +1,21 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Created by Kartikey Agrawal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kartikey Agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "finnhub": "^1.2.18",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.0",
+    "node-cron": "^3.0.3",
+    "winston": "^3.14.2"
+  }
+}

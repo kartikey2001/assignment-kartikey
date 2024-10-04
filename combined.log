@@ -1,0 +1,136 @@
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:07:47.714Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:07:48.975Z"}
+{"level":"info","message":"No existing portfolio found, using default values","timestamp":"2024-10-04T12:07:49.081Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:08:35.373Z"}
+{"level":"info","message":"Fetched stock price","price":0,"symbol":"portfolio","timestamp":"2024-10-04T12:09:02.812Z"}
+{"level":"info","message":"Fetched stock price","price":0,"symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:10:30.470Z"}
+{"level":"info","message":"Fetched stock price","price":0,"symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:11:34.677Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:14:08.285Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:14:09.286Z"}
+{"level":"info","message":"No existing portfolio found, using default values","timestamp":"2024-10-04T12:14:09.386Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:14:22.756Z"}
+{"level":"info","message":"Fetched stock price","price":167.21,"symbol":"GOOG","timestamp":"2024-10-04T12:14:39.713Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:18:13.024Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:18:29.802Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:18:30.887Z"}
+{"level":"info","message":"No existing portfolio found, using default values","timestamp":"2024-10-04T12:18:31.047Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:18:39.550Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:18:53.983Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:19:05.275Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:25:22.703Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:25:23.447Z"}
+{"level":"info","message":"No existing portfolio found, using default values","timestamp":"2024-10-04T12:25:23.511Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:27:06.034Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T12:30:00.500Z"}
+{"level":"info","message":"Executing trade for AAPL","timestamp":"2024-10-04T12:30:00.626Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:30:02.060Z"}
+{"level":"info","message":"Executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:30:02.061Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:30:05.745Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing strategy","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:30:05.747Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:30:05.747Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:31:58.593Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T12:35:00.574Z"}
+{"level":"info","message":"Executing trade for AAPL","timestamp":"2024-10-04T12:35:00.767Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:35:01.996Z"}
+{"level":"info","message":"Executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:35:01.997Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:35:04.662Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing strategy","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:35:04.663Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:35:04.664Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:39:25.499Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:39:26.813Z"}
+{"level":"info","message":"No existing portfolio found, using default values","timestamp":"2024-10-04T12:39:26.923Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T12:40:00.750Z"}
+{"level":"info","message":"Executing trade for AAPL","timestamp":"2024-10-04T12:40:00.912Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:40:02.148Z"}
+{"level":"info","message":"Executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:40:02.151Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:40:05.007Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing strategy","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:40:05.009Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:40:05.010Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:44:26.632Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:44:28.696Z"}
+{"level":"info","message":"No existing portfolio found, using default values","timestamp":"2024-10-04T12:44:28.800Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T12:45:00.820Z"}
+{"level":"info","message":"Executing trade for AAPL","timestamp":"2024-10-04T12:45:00.876Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:45:02.258Z"}
+{"level":"info","message":"Executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:45:02.259Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:45:04.945Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing strategy","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:45:04.946Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:45:04.947Z"}
+{"level":"info","message":"Fetched stock price","price":165.86,"symbol":"GOOGL","timestamp":"2024-10-04T12:46:44.070Z"}
+{"level":"info","message":"Fetched stock price","price":12.97,"symbol":"GOGL","timestamp":"2024-10-04T12:46:51.238Z"}
+{"level":"info","message":"Fetched stock price","price":165.86,"symbol":"GOOGL","timestamp":"2024-10-04T12:47:02.197Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T12:50:00.906Z"}
+{"level":"info","message":"Executing trade for GOOGL","timestamp":"2024-10-04T12:50:00.990Z"}
+{"level":"info","message":"Fetched stock price","price":165.86,"symbol":"GOOGL","timestamp":"2024-10-04T12:50:02.527Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:50:37.161Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:50:38.269Z"}
+{"level":"info","message":"No existing portfolio found, using default values","timestamp":"2024-10-04T12:50:38.371Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:51:18.515Z"}
+{"level":"info","message":"No existing portfolio found, using default values","timestamp":"2024-10-04T12:51:18.719Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:51:19.150Z"}
+{"level":"info","message":"Updated trading symbols","symbols":["AAPL"],"timestamp":"2024-10-04T12:51:37.455Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T12:55:00.916Z"}
+{"level":"info","message":"Trading symbols","symbols":["AAPL"],"timestamp":"2024-10-04T12:55:00.972Z"}
+{"level":"info","message":"Executing trade for AAPL","timestamp":"2024-10-04T12:55:00.974Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T12:55:02.073Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:55:57.295Z"}
+{"balance":10000,"level":"info","message":"No existing portfolio found, using default values","positions":{},"timestamp":"2024-10-04T12:55:57.353Z"}
+{"balance":10000,"level":"info","message":"Updated portfolio","positionsCount":3,"timestamp":"2024-10-04T12:55:57.617Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:55:57.631Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"timestamp":"2024-10-04T12:56:03.924Z","tradingSymbolsCount":1}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:56:25.132Z"}
+{"balance":10000,"level":"info","message":"Loaded portfolio from database","positions":{},"timestamp":"2024-10-04T12:56:25.194Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:56:25.519Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"timestamp":"2024-10-04T12:56:32.745Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"timestamp":"2024-10-04T12:56:34.110Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"timestamp":"2024-10-04T12:56:53.244Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"timestamp":"2024-10-04T12:56:54.520Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"timestamp":"2024-10-04T12:56:56.437Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"timestamp":"2024-10-04T12:56:57.333Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"timestamp":"2024-10-04T12:57:45.351Z","tradingSymbolsCount":1}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T12:59:33.628Z"}
+{"balance":10000,"level":"info","message":"Loaded portfolio from database","positions":{},"timestamp":"2024-10-04T12:59:33.696Z"}
+{"balance":10000,"level":"info","message":"Initial portfolio state","positionsCount":0,"timestamp":"2024-10-04T12:59:34.050Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T12:59:34.052Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T12:59:38.005Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T12:59:39.539Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T12:59:41.827Z","tradingSymbolsCount":1}
+{"level":"info","message":"Updated trading symbols","symbols":["GOOGL"],"timestamp":"2024-10-04T12:59:48.271Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T12:59:51.792Z","tradingSymbolsCount":1}
+{"level":"info","message":"Updated trading symbols","symbols":["AAPL"],"timestamp":"2024-10-04T12:59:58.638Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T13:00:00.215Z"}
+{"level":"info","message":"Trading symbols","symbols":["AAPL"],"timestamp":"2024-10-04T13:00:00.266Z"}
+{"level":"info","message":"Executing trade for AAPL","timestamp":"2024-10-04T13:00:00.267Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T13:00:01.402Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:00:05.548Z","tradingSymbolsCount":1}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T13:02:24.095Z"}
+{"balance":10000,"level":"info","message":"Loaded portfolio from database","positions":{},"timestamp":"2024-10-04T13:02:24.159Z"}
+{"balance":10000,"level":"info","message":"Initial portfolio state","positionsCount":0,"timestamp":"2024-10-04T13:02:24.487Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T13:02:24.489Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:02:46.262Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:04:16.602Z","tradingSymbolsCount":1}
+{"level":"info","message":"Updated trading symbols","symbols":["GOOGL"],"timestamp":"2024-10-04T13:04:22.040Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:04:27.623Z","tradingSymbolsCount":1}
+{"level":"info","message":"Updated trading symbols","symbols":["AAPL"],"timestamp":"2024-10-04T13:04:49.977Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T13:05:00.989Z"}
+{"level":"info","message":"Trading symbols","symbols":["AAPL"],"timestamp":"2024-10-04T13:05:01.042Z"}
+{"level":"info","message":"Executing trade for AAPL","timestamp":"2024-10-04T13:05:01.042Z"}
+{"level":"info","message":"Fetched stock price","price":225.67,"symbol":"AAPL","timestamp":"2024-10-04T13:05:02.179Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:05:58.306Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:07:16.749Z","tradingSymbolsCount":1}
+{"level":"info","message":"Updated trading symbols","symbols":["GOOGL"],"timestamp":"2024-10-04T13:07:23.233Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T13:07:31.113Z"}
+{"balance":10000,"level":"info","message":"Loaded portfolio from database","positions":{},"timestamp":"2024-10-04T13:07:31.173Z"}
+{"balance":10000,"level":"info","message":"Initial portfolio state","positionsCount":0,"timestamp":"2024-10-04T13:07:31.494Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T13:07:31.496Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:07:34.872Z","tradingSymbolsCount":1}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T13:10:12.159Z"}
+{"balance":10000,"level":"info","message":"Loaded portfolio from database","positions":{},"timestamp":"2024-10-04T13:10:12.221Z"}
+{"balance":10000,"level":"info","message":"Initial portfolio state","positionsCount":0,"timestamp":"2024-10-04T13:10:12.528Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T13:10:12.530Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:10:15.422Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:10:17.155Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:10:18.057Z","tradingSymbolsCount":1}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:10:28.048Z","tradingSymbolsCount":1}
+{"level":"info","message":"Updated trading symbols","symbols":["GOOGL","AAPL"],"timestamp":"2024-10-04T13:10:35.100Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T13:10:38.420Z","tradingSymbolsCount":2}

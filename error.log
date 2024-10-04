@@ -1,0 +1,15 @@
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:14:22.756Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:18:13.024Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:18:39.550Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:30:05.745Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing strategy","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:30:05.747Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:30:05.747Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:35:04.662Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing strategy","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:35:04.663Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:35:04.664Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:40:05.007Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing strategy","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:40:05.009Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:40:05.010Z"}
+{"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:45:04.945Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing strategy","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:45:04.946Z"}
+{"error":"Invalid symbol or no data available","level":"error","message":"Error executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:45:04.947Z"}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Bot Dashboard</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Trading Bot Dashboard</h1>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
+        </header>
+        
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Balance: $<span id="balance"><%= portfolio ? portfolio.balance.toFixed(2) : '10000.00' %></span></p>
+            <h3>Positions:</h3>
+            <ul id="positions">
+            <% if (portfolio && portfolio.positions && Object.keys(portfolio.positions).length > 0) { %>
+                <% for (const [symbol, quantity] of Object.entries(portfolio.positions)) { %>
+                    <li><span class="symbol"><%= symbol %></span>: <%= quantity %></li>
+                <% } %>
+            <% } else { %>
+                <li>No positions</li>
+            <% } %>
+            </ul>
+        </section>
+
+        <section id="recentTrades">
+            <h2>Recent Trades</h2>
+            <ul>
+            <% recentTrades.forEach(trade => { %>
+                <li>
+                    <span class="date"><%= trade.timestamp.toLocaleString() %></span> - 
+                    <span class="<%= trade.type %>"><%= trade.type %></span> 
+                    <%= trade.quantity %> <span class="symbol"><%= trade.symbol %></span> 
+                    at $<%= trade.price.toFixed(2) %>
+                </li>
+            <% }) %>
+            </ul>
+        </section>
+
+        <section id="performance">
+            <h2>Performance</h2>
+            <ul>
+            <% performances.forEach(perf => { %>
+                <li>
+                    <span class="date"><%= perf.date.toLocaleDateString() %></span> - 
+                    Total Value: $<%= perf.totalValue.toFixed(2) %>, 
+                    Profit/Loss: <span class="<%= perf.profitLoss >= 0 ? 'profit' : 'loss' %>">
+                        $<%= Math.abs(perf.profitLoss).toFixed(2) %>
+                    </span>
+                </li>
+            <% }) %>
+            </ul>
+        </section>
+
+        <section id="tradingSymbols">
+            <h2>Trading Symbols</h2>
+            <ul class="symbols">
+            <% tradingSymbols.forEach(symbol => { %>
+                <li><span class="symbol"><%= symbol %></span></li>
+            <% }) %>
+            </ul>
+            <form id="addSymbolForm">
+                <input type="text" id="newSymbol" placeholder="Enter new symbol" required>
+                <button type="submit">Add Symbol</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

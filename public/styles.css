@@ -1,0 +1,153 @@
+:root {
+    --bg-color: #f4f4f4;
+    --text-color: #333;
+    --card-bg: #fff;
+    --header-bg: #e0e0e0;
+    --buy-color: #4CAF50;
+    --sell-color: #f44336;
+    --symbol-color: #2196F3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--header-bg);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+section {
+    background-color: var(--card-bg);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: var(--card-bg);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.symbol {
+    color: var(--symbol-color);
+    font-weight: bold;
+}
+
+.buy {
+    color: var(--buy-color);
+}
+
+.sell {
+    color: var(--sell-color);
+}
+
+.profit {
+    color: var(--buy-color);
+}
+
+.loss {
+    color: var(--sell-color);
+}
+
+.date {
+    font-style: italic;
+    color: #666;
+}
+
+button {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.dark-mode {
+    --bg-color: #333;
+    --text-color: #f4f4f4;
+    --card-bg: #444;
+    --header-bg: #222;
+    --buy-color: #81C784;
+    --sell-color: #E57373;
+    --symbol-color: #64B5F6;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    button {
+        margin-top: 10px;
+    }
+}
+
+/* Add this to the end of your existing CSS */
+
+#addSymbolForm {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#addSymbolForm input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addSymbolForm button {
+    padding: 10px 15px;
+    background-color: var(--symbol-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addSymbolForm button:hover {
+    opacity: 0.9;
+}
