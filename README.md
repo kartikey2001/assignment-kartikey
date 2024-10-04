@@ -51,6 +51,8 @@ I have created this assignment for the role of Backend Developer at Probo.
 - **Version Control**: Git
 
 ## Project Structure
+
+```
 trading-bot-dashboard/
 │
 ├── public/
@@ -67,7 +69,7 @@ trading-bot-dashboard/
 ├── package.json
 ├── package-lock.json
 └── README.md
-
+```
 
 ## Setup and Installation
 
