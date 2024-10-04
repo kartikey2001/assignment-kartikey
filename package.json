@@ -4,6 +4,7 @@
   "description": "Created by Kartikey Agrawal",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kartikey Agrawal",
