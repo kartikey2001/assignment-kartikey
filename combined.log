@@ -260,3 +260,201 @@
 {"level":"info","message":"Fetched stock price","price":167.915,"symbol":"GOOGL","timestamp":"2024-10-04T13:36:54.690Z"}
 {"level":"info","message":"Fetched stock price","price":13.07,"symbol":"GOGL","timestamp":"2024-10-04T13:36:55.685Z"}
 {"level":"info","message":"Fetched stock price","price":227.1214,"symbol":"AAPL","timestamp":"2024-10-04T13:36:56.784Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T17:46:24.506Z"}
+{"balance":10000,"level":"info","message":"Loaded portfolio from database","positions":{},"timestamp":"2024-10-04T17:46:24.584Z"}
+{"balance":10000,"level":"info","message":"Initial portfolio state","positionsCount":0,"timestamp":"2024-10-04T17:46:24.875Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T17:46:24.880Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T17:46:36.600Z","tradingSymbolsCount":3}
+{"level":"info","message":"Fetched stock price","price":166.26,"symbol":"GOOGL","timestamp":"2024-10-04T17:46:37.847Z"}
+{"level":"info","message":"Fetched stock price","price":12.98,"symbol":"GOGL","timestamp":"2024-10-04T17:46:38.755Z"}
+{"level":"info","message":"Fetched stock price","price":225.27,"symbol":"AAPL","timestamp":"2024-10-04T17:46:39.609Z"}
+{"buyThreshold":-4,"level":"info","message":"Updated bot settings","sellThreshold":3,"timestamp":"2024-10-04T17:46:44.757Z"}
+{"level":"info","message":"Deleted trading symbol","symbol":"GOGL","timestamp":"2024-10-04T17:46:53.692Z"}
+{"level":"info","message":"Fetched stock price","price":166.26,"symbol":"GOOGL","timestamp":"2024-10-04T17:46:54.860Z"}
+{"level":"info","message":"Fetched stock price","price":225.27,"symbol":"AAPL","timestamp":"2024-10-04T17:46:55.825Z"}
+{"level":"info","message":"Fetched stock price","price":166.28,"symbol":"GOOGL","timestamp":"2024-10-04T17:47:10.386Z"}
+{"level":"info","message":"Fetched stock price","price":225.255,"symbol":"AAPL","timestamp":"2024-10-04T17:47:11.629Z"}
+{"level":"info","message":"Fetched stock price","price":166.28,"symbol":"GOOGL","timestamp":"2024-10-04T17:47:38.381Z"}
+{"level":"info","message":"Fetched stock price","price":225.255,"symbol":"AAPL","timestamp":"2024-10-04T17:47:39.519Z"}
+{"level":"info","message":"Fetched stock price","price":166.3155,"symbol":"GOOGL","timestamp":"2024-10-04T17:48:09.289Z"}
+{"level":"info","message":"Fetched stock price","price":166.3155,"symbol":"GOOGL","timestamp":"2024-10-04T17:48:38.168Z"}
+{"level":"info","message":"Fetched stock price","price":225.2438,"symbol":"AAPL","timestamp":"2024-10-04T17:48:59.090Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T17:55:42.664Z"}
+{"balance":10000,"level":"info","message":"Loaded portfolio from database","positions":{},"timestamp":"2024-10-04T17:55:42.730Z"}
+{"balance":10000,"level":"info","message":"Initial portfolio state","positionsCount":0,"timestamp":"2024-10-04T17:55:43.060Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T17:55:43.064Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T17:55:47.329Z","tradingSymbolsCount":2}
+{"level":"info","message":"Fetched stock price","price":166.08,"symbol":"GOOGL","timestamp":"2024-10-04T17:55:48.662Z"}
+{"level":"info","message":"Fetched stock price","price":224.97,"symbol":"AAPL","timestamp":"2024-10-04T17:55:49.670Z"}
+{"level":"info","message":"Fetched stock price","price":166.0399,"symbol":"GOOGL","timestamp":"2024-10-04T17:56:04.416Z"}
+{"level":"info","message":"Fetched stock price","price":166.0399,"symbol":"GOOGL","timestamp":"2024-10-04T17:56:19.066Z"}
+{"level":"info","message":"Fetched stock price","price":224.94,"symbol":"AAPL","timestamp":"2024-10-04T17:56:20.040Z"}
+{"level":"info","message":"Fetched stock price","price":166.0399,"symbol":"GOOGL","timestamp":"2024-10-04T17:56:50.762Z"}
+{"level":"info","message":"Fetched stock price","price":224.94,"symbol":"AAPL","timestamp":"2024-10-04T17:56:51.636Z"}
+{"level":"info","message":"Fetched stock price","price":166.01,"symbol":"GOOGL","timestamp":"2024-10-04T17:57:19.320Z"}
+{"level":"info","message":"Fetched stock price","price":224.92,"symbol":"AAPL","timestamp":"2024-10-04T17:57:22.668Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T17:59:30.767Z"}
+{"balance":10000,"level":"info","message":"Loaded portfolio from database","positions":{},"timestamp":"2024-10-04T17:59:30.834Z"}
+{"balance":10000,"level":"info","message":"Initial portfolio state","positionsCount":0,"timestamp":"2024-10-04T17:59:31.159Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T17:59:31.163Z"}
+{"level":"info","message":"Fetched stock price","price":165.99,"symbol":"GOOGL","timestamp":"2024-10-04T17:59:49.181Z"}
+{"level":"info","message":"Fetched stock price","price":224.97,"symbol":"AAPL","timestamp":"2024-10-04T17:59:50.094Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T18:00:00.283Z"}
+{"level":"info","message":"Trading symbols","symbols":["GOOGL","AAPL"],"timestamp":"2024-10-04T18:00:00.337Z"}
+{"level":"info","message":"Executing trade for GOOGL","timestamp":"2024-10-04T18:00:00.338Z"}
+{"level":"info","message":"Fetched stock price","price":165.9,"symbol":"GOOGL","timestamp":"2024-10-04T18:00:01.225Z"}
+{"level":"info","message":"Executing trade for AAPL","timestamp":"2024-10-04T18:00:01.274Z"}
+{"level":"info","message":"Fetched stock price","price":224.8901,"symbol":"AAPL","timestamp":"2024-10-04T18:00:02.412Z"}
+{"level":"info","message":"Fetched stock price","price":165.9,"symbol":"GOOGL","timestamp":"2024-10-04T18:00:19.323Z"}
+{"level":"info","message":"Fetched stock price","price":224.8901,"symbol":"AAPL","timestamp":"2024-10-04T18:00:22.406Z"}
+{"level":"info","message":"Fetched stock price","price":165.9,"symbol":"GOOGL","timestamp":"2024-10-04T18:00:50.528Z"}
+{"level":"info","message":"Fetched stock price","price":224.8901,"symbol":"AAPL","timestamp":"2024-10-04T18:00:51.603Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T18:03:12.363Z"}
+{"balance":10000,"level":"info","message":"Loaded portfolio from database","positions":{},"timestamp":"2024-10-04T18:03:12.426Z"}
+{"balance":10000,"level":"info","message":"Initial portfolio state","positionsCount":0,"timestamp":"2024-10-04T18:03:12.739Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T18:03:12.743Z"}
+{"level":"info","message":"Rendering dashboard","portfolioBalance":10000,"positionsCount":0,"timestamp":"2024-10-04T18:03:20.990Z","tradingSymbolsCount":2}
+{"level":"info","message":"Fetched stock price","price":165.93,"symbol":"GOOGL","timestamp":"2024-10-04T18:03:22.441Z"}
+{"level":"info","message":"Fetched stock price","price":224.8351,"symbol":"AAPL","timestamp":"2024-10-04T18:03:23.516Z"}
+{"level":"info","message":"Fetched stock price","price":165.93,"symbol":"GOOGL","timestamp":"2024-10-04T18:03:52.164Z"}
+{"level":"info","message":"Fetched stock price","price":165.93,"symbol":"GOOGL","timestamp":"2024-10-04T18:03:53.011Z"}
+{"level":"info","message":"Fetched stock price","price":224.8351,"symbol":"AAPL","timestamp":"2024-10-04T18:03:53.241Z"}
+{"level":"info","message":"Fetched stock price","price":224.8351,"symbol":"AAPL","timestamp":"2024-10-04T18:03:54.276Z"}
+{"level":"info","message":"Fetched stock price","price":165.925,"symbol":"GOOGL","timestamp":"2024-10-04T18:04:22.323Z"}
+{"level":"info","message":"Fetched stock price","price":224.84,"symbol":"AAPL","timestamp":"2024-10-04T18:04:23.958Z"}
+{"level":"info","message":"Fetched stock price","price":165.925,"symbol":"GOOGL","timestamp":"2024-10-04T18:04:52.187Z"}
+{"level":"info","message":"Fetched stock price","price":224.84,"symbol":"AAPL","timestamp":"2024-10-04T18:04:53.066Z"}
+{"level":"info","message":"Fetched stock price","price":165.925,"symbol":"GOOGL","timestamp":"2024-10-04T18:04:53.145Z"}
+{"level":"info","message":"Fetched stock price","price":224.84,"symbol":"AAPL","timestamp":"2024-10-04T18:04:54.589Z"}
+{"level":"info","message":"Running scheduled trading job","timestamp":"2024-10-04T18:05:00.639Z"}
+{"level":"info","message":"Trading symbols","symbols":["GOOGL","AAPL"],"timestamp":"2024-10-04T18:05:00.691Z"}
+{"level":"info","message":"Executing trade for GOOGL","timestamp":"2024-10-04T18:05:00.692Z"}
+{"level":"info","message":"Fetched stock price","price":165.925,"symbol":"GOOGL","timestamp":"2024-10-04T18:05:01.699Z"}
+{"level":"info","message":"Executing trade for AAPL","timestamp":"2024-10-04T18:05:01.757Z"}
+{"level":"info","message":"Fetched stock price","price":224.744,"symbol":"AAPL","timestamp":"2024-10-04T18:05:03.433Z"}
+{"level":"info","message":"Fetched stock price","price":165.87,"symbol":"GOOGL","timestamp":"2024-10-04T18:05:23.443Z"}
+{"level":"info","message":"Fetched stock price","price":224.744,"symbol":"AAPL","timestamp":"2024-10-04T18:05:24.486Z"}
+{"level":"info","message":"Fetched stock price","price":165.87,"symbol":"GOOGL","timestamp":"2024-10-04T18:05:52.190Z"}
+{"level":"info","message":"Fetched stock price","price":224.744,"symbol":"AAPL","timestamp":"2024-10-04T18:05:53.222Z"}
+{"level":"info","message":"Fetched stock price","price":165.87,"symbol":"GOOGL","timestamp":"2024-10-04T18:05:55.532Z"}
+{"level":"info","message":"Fetched stock price","price":224.744,"symbol":"AAPL","timestamp":"2024-10-04T18:05:57.627Z"}
+{"level":"info","message":"Fetched stock price","price":165.9,"symbol":"GOOGL","timestamp":"2024-10-04T18:06:21.992Z"}
+{"level":"info","message":"Fetched stock price","price":224.7733,"symbol":"AAPL","timestamp":"2024-10-04T18:06:22.962Z"}
+{"level":"info","message":"Fetched stock price","price":165.9,"symbol":"GOOGL","timestamp":"2024-10-04T18:06:52.343Z"}
+{"level":"info","message":"Fetched stock price","price":224.7733,"symbol":"AAPL","timestamp":"2024-10-04T18:06:53.374Z"}
+{"level":"info","message":"Fetched stock price","price":165.9,"symbol":"GOOGL","timestamp":"2024-10-04T18:06:55.162Z"}
+{"level":"info","message":"Fetched stock price","price":224.7733,"symbol":"AAPL","timestamp":"2024-10-04T18:06:56.823Z"}
+{"level":"info","message":"Fetched stock price","price":165.9055,"symbol":"GOOGL","timestamp":"2024-10-04T18:07:22.007Z"}
+{"level":"info","message":"Fetched stock price","price":224.7999,"symbol":"AAPL","timestamp":"2024-10-04T18:07:23.008Z"}
+{"level":"info","message":"Fetched stock price","price":165.9055,"symbol":"GOOGL","timestamp":"2024-10-04T18:07:52.057Z"}
+{"level":"info","message":"Fetched stock price","price":224.7999,"symbol":"AAPL","timestamp":"2024-10-04T18:07:53.862Z"}
+{"level":"info","message":"Fetched stock price","price":165.975,"symbol":"GOOGL","timestamp":"2024-10-04T18:08:22.261Z"}
+{"level":"info","message":"Fetched stock price","price":224.8374,"symbol":"AAPL","timestamp":"2024-10-04T18:08:23.221Z"}
+{"level":"info","message":"Fetched stock price","price":165.975,"symbol":"GOOGL","timestamp":"2024-10-04T18:08:53.601Z"}
+{"level":"info","message":"Fetched stock price","price":224.8374,"symbol":"AAPL","timestamp":"2024-10-04T18:08:54.580Z"}
+{"level":"info","message":"Fetched stock price","price":166.01,"symbol":"GOOGL","timestamp":"2024-10-04T18:09:23.667Z"}
+{"level":"info","message":"Fetched stock price","price":224.8929,"symbol":"AAPL","timestamp":"2024-10-04T18:09:24.610Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T18:21:45.626Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T18:21:46.235Z"}
+{"buyThreshold":-2,"level":"info","message":"Updated bot settings","sellThreshold":3,"timestamp":"2024-10-04T18:23:56.183Z"}
+{"buyThreshold":-7,"level":"info","message":"Updated bot settings","sellThreshold":3,"timestamp":"2024-10-04T18:24:04.846Z"}
+{"level":"info","message":"Executing scheduled trades","symbols":["GOOGL","AAPL"],"timestamp":"2024-10-04T18:25:00.252Z"}
+{"level":"info","message":"Fetched stock price","price":166.04,"symbol":"GOOGL","timestamp":"2024-10-04T18:25:01.462Z"}
+{"level":"info","message":"Fetched stock price","price":225.06,"symbol":"AAPL","timestamp":"2024-10-04T18:25:02.547Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T18:25:32.324Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T18:25:32.908Z"}
+{"level":"info","message":"Fetched stock price","price":166.08,"symbol":"GOOGL","timestamp":"2024-10-04T18:25:42.022Z"}
+{"level":"info","message":"Fetched stock price","price":225.06,"symbol":"AAPL","timestamp":"2024-10-04T18:25:44.906Z"}
+{"level":"info","message":"Fetched stock price","price":166.1235,"symbol":"GOOGL","timestamp":"2024-10-04T18:26:12.137Z"}
+{"level":"info","message":"Fetched stock price","price":225.035,"symbol":"AAPL","timestamp":"2024-10-04T18:26:13.980Z"}
+{"level":"info","message":"Fetched stock price","price":166.1235,"symbol":"GOOGL","timestamp":"2024-10-04T18:26:14.900Z"}
+{"level":"info","message":"Fetched stock price","price":225.035,"symbol":"AAPL","timestamp":"2024-10-04T18:26:23.427Z"}
+{"level":"info","message":"Fetched stock price","price":166.1235,"symbol":"GOOGL","timestamp":"2024-10-04T18:26:41.991Z"}
+{"level":"info","message":"Fetched stock price","price":166.1235,"symbol":"GOOGL","timestamp":"2024-10-04T18:26:44.159Z"}
+{"level":"info","message":"Fetched stock price","price":225.035,"symbol":"AAPL","timestamp":"2024-10-04T18:26:44.627Z"}
+{"level":"info","message":"Fetched stock price","price":225.035,"symbol":"AAPL","timestamp":"2024-10-04T18:26:45.604Z"}
+{"level":"info","message":"Fetched stock price","price":166.09,"symbol":"GOOGL","timestamp":"2024-10-04T18:27:12.403Z"}
+{"level":"info","message":"Fetched stock price","price":225.05,"symbol":"AAPL","timestamp":"2024-10-04T18:27:13.582Z"}
+{"level":"info","message":"Fetched stock price","price":166.09,"symbol":"GOOGL","timestamp":"2024-10-04T18:27:14.014Z"}
+{"level":"info","message":"Fetched stock price","price":225.05,"symbol":"AAPL","timestamp":"2024-10-04T18:27:16.238Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T18:30:03.554Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T18:30:04.188Z"}
+{"level":"info","message":"Fetched stock price","price":166.07,"symbol":"GOOGL","timestamp":"2024-10-04T18:30:15.064Z"}
+{"level":"info","message":"Fetched stock price","price":166.07,"symbol":"GOOGL","timestamp":"2024-10-04T18:30:16.982Z"}
+{"level":"info","message":"Fetched stock price","price":225.09,"symbol":"AAPL","timestamp":"2024-10-04T18:30:17.533Z"}
+{"level":"info","message":"Fetched stock price","price":225.09,"symbol":"AAPL","timestamp":"2024-10-04T18:30:18.378Z"}
+{"level":"info","message":"Added new trading symbol","symbol":"GOGL","timestamp":"2024-10-04T18:30:36.116Z"}
+{"level":"info","message":"Fetched stock price","price":166.07,"symbol":"GOOGL","timestamp":"2024-10-04T18:30:39.649Z"}
+{"level":"info","message":"Fetched stock price","price":225.09,"symbol":"AAPL","timestamp":"2024-10-04T18:30:40.667Z"}
+{"level":"info","message":"Fetched stock price","price":166.07,"symbol":"GOOGL","timestamp":"2024-10-04T18:30:44.126Z"}
+{"level":"info","message":"Fetched stock price","price":225.09,"symbol":"AAPL","timestamp":"2024-10-04T18:30:45.388Z"}
+{"level":"info","message":"Removed trading symbol","symbol":"GOOGL","timestamp":"2024-10-04T18:30:59.515Z"}
+{"error":"No matching document found for id \"66ffdebbe3087bf128fa91ba\" version 8 modifiedPaths \"tradingSymbols\"","level":"error","message":"Error removing trading symbol","timestamp":"2024-10-04T18:30:59.691Z"}
+{"error":"No matching document found for id \"66ffdebbe3087bf128fa91ba\" version 8 modifiedPaths \"tradingSymbols\"","level":"error","message":"Error removing trading symbol","timestamp":"2024-10-04T18:30:59.694Z"}
+{"level":"info","message":"Removed trading symbol","symbol":"GOOGL","timestamp":"2024-10-04T18:31:05.305Z"}
+{"level":"info","message":"Removed trading symbol","symbol":"GOOGL","timestamp":"2024-10-04T18:31:05.536Z"}
+{"level":"info","message":"Removed trading symbol","symbol":"AAPL","timestamp":"2024-10-04T18:31:07.555Z"}
+{"level":"info","message":"Removed trading symbol","symbol":"AAPL","timestamp":"2024-10-04T18:31:09.248Z"}
+{"level":"info","message":"Fetched stock price","price":166.08,"symbol":"GOOGL","timestamp":"2024-10-04T18:31:09.710Z"}
+{"level":"info","message":"Removed trading symbol","symbol":"GOOGL","timestamp":"2024-10-04T18:31:10.289Z"}
+{"level":"info","message":"Fetched stock price","price":225.1644,"symbol":"AAPL","timestamp":"2024-10-04T18:31:10.684Z"}
+{"level":"info","message":"Fetched stock price","price":166.08,"symbol":"GOOGL","timestamp":"2024-10-04T18:31:11.139Z"}
+{"level":"info","message":"Fetched stock price","price":225.1644,"symbol":"AAPL","timestamp":"2024-10-04T18:31:12.150Z"}
+{"level":"info","message":"Fetched stock price","price":166.08,"symbol":"GOOGL","timestamp":"2024-10-04T18:31:16.436Z"}
+{"level":"info","message":"Fetched stock price","price":225.1644,"symbol":"AAPL","timestamp":"2024-10-04T18:31:17.447Z"}
+{"level":"info","message":"Fetched stock price","price":166.08,"symbol":"GOOGL","timestamp":"2024-10-04T18:31:39.926Z"}
+{"level":"info","message":"Fetched stock price","price":225.1644,"symbol":"AAPL","timestamp":"2024-10-04T18:31:40.774Z"}
+{"level":"info","message":"Fetched stock price","price":166.0079,"symbol":"GOOGL","timestamp":"2024-10-04T18:32:09.991Z"}
+{"level":"info","message":"Fetched stock price","price":166.0079,"symbol":"GOOGL","timestamp":"2024-10-04T18:32:11.368Z"}
+{"level":"info","message":"Fetched stock price","price":166.0079,"symbol":"GOOGL","timestamp":"2024-10-04T18:32:12.324Z"}
+{"level":"info","message":"Fetched stock price","price":225.0776,"symbol":"AAPL","timestamp":"2024-10-04T18:32:12.363Z"}
+{"level":"info","message":"Fetched stock price","price":225.0776,"symbol":"AAPL","timestamp":"2024-10-04T18:32:13.184Z"}
+{"level":"info","message":"Fetched stock price","price":225.0776,"symbol":"AAPL","timestamp":"2024-10-04T18:32:14.261Z"}
+{"level":"info","message":"Fetched stock price","price":166.0079,"symbol":"GOOGL","timestamp":"2024-10-04T18:32:42.088Z"}
+{"level":"info","message":"Fetched stock price","price":225.0776,"symbol":"AAPL","timestamp":"2024-10-04T18:32:44.709Z"}
+{"level":"info","message":"Fetched stock price","price":165.9452,"symbol":"GOOGL","timestamp":"2024-10-04T18:33:10.148Z"}
+{"level":"info","message":"Fetched stock price","price":165.9452,"symbol":"GOOGL","timestamp":"2024-10-04T18:33:11.040Z"}
+{"level":"info","message":"Fetched stock price","price":225.07,"symbol":"AAPL","timestamp":"2024-10-04T18:33:11.102Z"}
+{"level":"info","message":"Fetched stock price","price":165.9452,"symbol":"GOOGL","timestamp":"2024-10-04T18:33:11.905Z"}
+{"level":"info","message":"Fetched stock price","price":225.07,"symbol":"AAPL","timestamp":"2024-10-04T18:33:12.037Z"}
+{"level":"info","message":"Fetched stock price","price":225.07,"symbol":"AAPL","timestamp":"2024-10-04T18:33:14.195Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T18:33:45.700Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T18:33:46.291Z"}
+{"level":"info","message":"Fetched stock price","price":12.975,"symbol":"GOGL","timestamp":"2024-10-04T18:33:52.309Z"}
+{"level":"info","message":"Fetched stock price","price":12.975,"symbol":"GOGL","timestamp":"2024-10-04T18:33:55.702Z"}
+{"level":"info","message":"Fetched stock price","price":12.975,"symbol":"GOGL","timestamp":"2024-10-04T18:33:58.278Z"}
+{"level":"info","message":"Fetched stock price","price":12.975,"symbol":"GOGL","timestamp":"2024-10-04T18:33:59.169Z"}
+{"level":"info","message":"Fetched stock price","price":165.9452,"symbol":"GOOGL","timestamp":"2024-10-04T18:33:59.731Z"}
+{"level":"info","message":"Fetched stock price","price":225.175,"symbol":"AAPL","timestamp":"2024-10-04T18:34:01.477Z"}
+{"level":"info","message":"Fetched stock price","price":166,"symbol":"GOOGL","timestamp":"2024-10-04T18:34:01.798Z"}
+{"level":"info","message":"Fetched stock price","price":225.175,"symbol":"AAPL","timestamp":"2024-10-04T18:34:03.706Z"}
+{"level":"info","message":"Added new trading symbol","symbol":"AAPL","timestamp":"2024-10-04T18:34:10.734Z"}
+{"level":"info","message":"Fetched stock price","price":12.98,"symbol":"GOGL","timestamp":"2024-10-04T18:34:12.429Z"}
+{"level":"info","message":"Added new trading symbol","symbol":"GOOGL","timestamp":"2024-10-04T18:34:16.297Z"}
+{"level":"info","message":"Fetched stock price","price":225.175,"symbol":"AAPL","timestamp":"2024-10-04T18:34:16.308Z"}
+{"level":"info","message":"Fetched stock price","price":12.98,"symbol":"GOGL","timestamp":"2024-10-04T18:34:17.341Z"}
+{"level":"info","message":"Fetched stock price","price":225.175,"symbol":"AAPL","timestamp":"2024-10-04T18:34:18.351Z"}
+{"level":"info","message":"Fetched stock price","price":166,"symbol":"GOOGL","timestamp":"2024-10-04T18:34:19.183Z"}
+{"level":"info","message":"Fetched stock price","price":12.98,"symbol":"GOGL","timestamp":"2024-10-04T18:34:22.577Z"}
+{"level":"info","message":"Removed trading symbol","symbol":"GOOGL","timestamp":"2024-10-04T18:34:23.928Z"}
+{"level":"info","message":"Fetched stock price","price":225.175,"symbol":"AAPL","timestamp":"2024-10-04T18:34:25.140Z"}
+{"level":"info","message":"Fetched stock price","price":12.98,"symbol":"GOGL","timestamp":"2024-10-04T18:34:25.700Z"}
+{"level":"info","message":"Fetched stock price","price":225.175,"symbol":"AAPL","timestamp":"2024-10-04T18:34:26.677Z"}
+{"level":"info","message":"Fetched stock price","price":166,"symbol":"GOOGL","timestamp":"2024-10-04T18:34:27.025Z"}
+{"level":"info","message":"Fetched stock price","price":12.98,"symbol":"GOGL","timestamp":"2024-10-04T18:34:53.047Z"}
+{"level":"info","message":"Trading bot server listening at http://localhost:3000","timestamp":"2024-10-04T18:44:45.239Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2024-10-04T18:44:45.832Z"}
+{"level":"info","message":"Fetched stock price","price":12.965,"symbol":"GOGL","timestamp":"2024-10-04T18:44:54.286Z"}
+{"level":"info","message":"Fetched stock price","price":225.21,"symbol":"AAPL","timestamp":"2024-10-04T18:44:57.048Z"}
+{"level":"info","message":"Executing scheduled trades","symbols":["GOGL","AAPL"],"timestamp":"2024-10-04T18:45:00.374Z"}
+{"level":"info","message":"Fetched stock price","price":12.965,"symbol":"GOGL","timestamp":"2024-10-04T18:45:01.511Z"}
+{"level":"info","message":"Fetched stock price","price":225.245,"symbol":"AAPL","timestamp":"2024-10-04T18:45:05.192Z"}
+{"level":"info","message":"Fetched stock price","price":12.965,"symbol":"GOGL","timestamp":"2024-10-04T18:45:11.923Z"}
+{"level":"info","message":"Fetched stock price","price":225.245,"symbol":"AAPL","timestamp":"2024-10-04T18:45:13.038Z"}
+{"level":"info","message":"Added new trading symbol","symbol":"GOOG","timestamp":"2024-10-04T18:45:19.699Z"}
+{"level":"info","message":"Fetched stock price","price":12.965,"symbol":"GOGL","timestamp":"2024-10-04T18:45:21.405Z"}
+{"level":"info","message":"Fetched stock price","price":225.245,"symbol":"AAPL","timestamp":"2024-10-04T18:45:22.257Z"}
+{"level":"info","message":"Fetched stock price","price":12.965,"symbol":"GOGL","timestamp":"2024-10-04T18:45:22.766Z"}
+{"level":"info","message":"Fetched stock price","price":167.47,"symbol":"GOOG","timestamp":"2024-10-04T18:45:23.130Z"}
+{"level":"info","message":"Fetched stock price","price":225.245,"symbol":"AAPL","timestamp":"2024-10-04T18:45:23.608Z"}
+{"level":"info","message":"Fetched stock price","price":167.47,"symbol":"GOOG","timestamp":"2024-10-04T18:45:24.609Z"}

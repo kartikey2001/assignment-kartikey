@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     async function updateTradingSymbols() {
         try {
-            const response = await fetch('/config/symbols');
+            const response = await fetch('/symbols');
             const symbols = await response.json();
             console.log('Received symbols:', symbols);
             const symbolsList = document.querySelector('#tradingSymbols ul');
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             button.addEventListener('click', async (e) => {
                 const symbol = e.target.dataset.symbol;
                 try {
-                    const response = await fetch('/config/symbols', {
+                    const response = await fetch('/symbols', {
                         method: 'DELETE',
                         headers: {
                             'Content-Type': 'application/json',
@@ -89,12 +89,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         e.preventDefault();
         const newSymbol = document.getElementById('newSymbol').value.toUpperCase();
         try {
-            const response = await fetch('/config/symbols', {
+            const response = await fetch('/symbols', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ symbols: [newSymbol] }),
+                body: JSON.stringify({ symbol: newSymbol }),
             });
             if (response.ok) {
                 const data = await response.json();

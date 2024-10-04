@@ -13,3 +13,5 @@
 {"level":"error","message":"Invalid symbol or no data available","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:45:04.945Z"}
 {"error":"Invalid symbol or no data available","level":"error","message":"Error executing strategy","symbol":"INVALID_SYMBOL","timestamp":"2024-10-04T12:45:04.946Z"}
 {"error":"Invalid symbol or no data available","level":"error","message":"Error executing trade for INVALID_SYMBOL","timestamp":"2024-10-04T12:45:04.947Z"}
+{"error":"No matching document found for id \"66ffdebbe3087bf128fa91ba\" version 8 modifiedPaths \"tradingSymbols\"","level":"error","message":"Error removing trading symbol","timestamp":"2024-10-04T18:30:59.691Z"}
+{"error":"No matching document found for id \"66ffdebbe3087bf128fa91ba\" version 8 modifiedPaths \"tradingSymbols\"","level":"error","message":"Error removing trading symbol","timestamp":"2024-10-04T18:30:59.694Z"}
